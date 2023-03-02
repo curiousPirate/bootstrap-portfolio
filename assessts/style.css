@@ -33,3 +33,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* responsive styles */
 
+@media screen and (max-width: 768px) {
+
+    .navbar > .container-fluid {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .bg-img {
+        background-image: url("../images/idea-logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+
+    }
+
+}
