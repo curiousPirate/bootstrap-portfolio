@@ -1,0 +1,35 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Nunito;
+}
+
+.navbar > .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #CD5888;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* responsive styles */
+
