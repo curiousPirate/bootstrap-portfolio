@@ -13,9 +13,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./images/idea-logo.png" alt="idea-logo" width="100" height="100"></a>
+      <a class="navbar-brand" href="#"><img src="./images/idea-logo.png" alt="idea-logo" width="90.4" height="100"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,19 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav bg-img">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Main</a>
+            <a class="nav-link active" aria-current="page" href="#">MAIN</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#skills">SKILLS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#blogs">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact</a>
+            <a class="nav-link" href="#contact-me">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -47,18 +44,52 @@
           <div class="py-5">
             <h1 class="display-5 fw-bold text-black">Hello!</h1>
               <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="fs-5 mb-4 fw-bold">I'm Chaitanya, expertise in Project Management, Customer Success, Front-End Development in MERN Stack & Designer!</p>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">GET IN TOUCH!</button>
-                      <button type="button" class="btn btn-outline-light btn-lg px-4">PROJECTS</button>
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" id="contact-me">GET IN TOUCH!</button>
+                      <button type="button" class="btn btn-outline-dark btn-lg px-4" href="#projects">PROJECTS</button>
                   </div>
               </div>
           </div>
       </div>
 
-
+     
+      <div class="container py-4" id="projects">
+        <ul class="row list-unstyled gy-4">
+          <h2 style="text-align:center" >PROJECTS</h2>
+          <li class="col-md-6">
+            <a href="https://curioushumans.github.io/MovieMate/" class="d-inline-block">
+              <figure>
+                <div class="img-overlay mb-3">
+                  <img src="./images/movie-mate.png" alt="" class="img-thumbnail" width="800" height="550">
+                  <div class="img-hover">
+                    <div class="img-text">View Page</div>
+                  </div>
+                </div>
+            </a>
+                <p class="fs-5 mb-4">The power of IMDB search, a single platform to keep track of upcoming movies,
+                  search for the trending movies around your city and watch the trailers in a click! And also random 
+                  quotes to keep up with the movie knowledge.
+                </p>
+              </figure>
+          </li>
+          <li class="col-md-6">
+            <a href="https://curioushumans.github.io/password-generator/" class="d-inline-block">
+              <figure>
+                <div class="img-overlay mb-3">
+                  <img src="./images/password-generator.png" alt="" class="img-thumbnail" width="800" height="550">
+                  <div class="img-hover">
+                    <div class="img-text">View Page</div>
+                  </div>
+                </div>
+            </a>
+                <p class="fs-5 mb-4">Quickly generate random passwords by answering the prompts and get your strong 
+                  password. You can input the number of characters and choose among the lower-case, upper-case, 
+                  numeric-case and special characters.
+                </p>
+              </figure>
+          </li>
+        </ul>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
