@@ -99,14 +99,6 @@ a.nav-link {
     transform: translateY(0)
 }
 
-.img-rising img {
-    transition: all .3s ease-in-out
-}
-
-.img-rising:hover img {
-    box-shadow: 0 .5rem 1rem rgba(14,14,14,.15);
-    transform: translateY(-5px)
-}
 
 
 /* responsive styles */
