@@ -12,18 +12,31 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+a.nav-link {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
 .nav-link::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
-    background: #CD5888;
+    border: 10px;
+    background: #0dcaf0;
     transition: width .3s;
 }
 
 .nav-link:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+.d-block {
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
 }
 
 
