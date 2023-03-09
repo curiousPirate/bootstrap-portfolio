@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Nunito;
 }
 
+.nav-bar {
+    background-color: transparent;
+}
+
 .navbar > .container-fluid {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,11 @@ a.nav-link {
     background-position: center;
 }
 
+.bg-dark {
+    background-image: url('../images/triangles.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
 
 /* responsive styles */
 
