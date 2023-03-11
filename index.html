@@ -10,10 +10,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito" />
   <link rel="stylesheet" type="text/css" href="./assessts/style.css">
+  <script src="https://kit.fontawesome.com/f1991e4499.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- nav-bar -->
+  <!-- nav-bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./images/idea-logo.png" alt="idea-logo" width="90.4" height="100"></a>
@@ -41,60 +42,223 @@
   </nav>
   <main>
     <!-- hero section -->
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="./images/Chaitanya.jpeg" alt="profile picture" width="150" height="200">
-          <div class="py-5">
-            <h1 class="display-5 fw-bold text-black">Hello!</h1>
-              <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 fw-bold">I'm Chaitanya, expertise in Project Management, Customer Success, Front-End Development in MERN Stack & Designer!</p>
-                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" id="contact-me">GET IN TOUCH!</button>
-                      <button type="button" class="btn btn-outline-dark btn-lg px-4" href="#projects">PROJECTS</button>
-                  </div>
-              </div>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="./images/Chaitanya.jpeg" alt="profile picture" width="150" height="200">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-black">Hello! I'm Chaitanya,</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4 fw-bold"><h1>Expertise in: <br><span class="auto-type"></span></h1></p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" id="contact-me">GET IN
+              TOUCH!</button>
+            <button type="button" class="btn btn-outline-dark btn-lg px-4" href="#projects">PROJECTS</button>
           </div>
+        </div>
       </div>
+    </div>
     <!-- projects section -->
-      <div class="container py-4" id="projects">
-        <ul class="row list-unstyled gy-4">
-          <h2 style="text-align:center" >PROJECTS</h2>
-          <li class="col-md-6">
-            <a href="https://curioushumans.github.io/MovieMate/" class="d-inline-block">
-              <figure>
-                <div class="img-overlay mb-3">
-                  <img src="./images/movie-mate.png" alt="" class="img-thumbnail" width="800" height="550">
-                  <div class="img-hover">
-                    <div class="img-text">View Page</div>
-                  </div>
+    <div class="container-fluid" id="projects">
+      <ul class="row list-unstyled gy-4">
+        <h2>PROJECTS</h2>
+        <li class="col-md-6">
+          <a href="https://curioushumans.github.io/MovieMate/" class="d-inline-block">
+            <figure>
+              <div class="img-overlay mb-3">
+                <img src="./images/movie-mate.png" alt="" class="img-thumbnail" width="800" height="550">
+                <div class="img-hover">
+                  <div class="img-text">View Page</div>
                 </div>
-            </a>
-                <p class="fs-5 mb-4">The power of IMDB search, a single platform to keep track of upcoming movies,
-                  search for the trending movies around your city and watch the trailers in a click! And also random 
-                  quotes to keep up with the movie knowledge.
-                </p>
-              </figure>
-          </li>
-          <li class="col-md-6">
-            <a href="https://curioushumans.github.io/password-generator/" class="d-inline-block">
-              <figure>
-                <div class="img-overlay mb-3">
-                  <img src="./images/password-generator.png" alt="" class="img-thumbnail" width="800" height="550">
-                  <div class="img-hover">
-                    <div class="img-text">View Page</div>
-                  </div>
+              </div>
+          </a>
+          <p class="fs-5 mb-4"><i><b>"The power of IMDB search, a single platform to keep track of upcoming movies,
+            search for the trending movies around your city and watch the trailers in a click! And also random
+            quotes to keep up with the movie knowledge."</b></i>
+          </p>
+          </figure>
+        </li>
+        <li class="col-md-6">
+          <a href="https://curioushumans.github.io/password-generator/" class="d-inline-block">
+            <figure>
+              <div class="img-overlay mb-3">
+                <img src="./images/password-generator.png" alt="" class="img-thumbnail" width="800" height="550">
+                <div class="img-hover">
+                  <div class="img-text">View Page</div>
                 </div>
-            </a>
-                <p class="fs-5 mb-4">Quickly generate random passwords by answering the prompts and get your strong 
-                  password. You can input the number of characters and choose among the lower-case, upper-case, 
-                  numeric-case and special characters.
-                </p>
-              </figure>
-          </li>
-        </ul>
+              </div>
+          </a>
+          <p class="fs-5 mb-4"><i><b>"Quickly generate random passwords by answering the prompts and get your strong
+            password. You can input the number of characters and choose among the lower-case, upper-case,
+            numeric-case and special characters."</b></i>
+          </p>
+          </figure>
+        </li>
+      </ul>
+      <!-- skills section -->
+      <div class="container px-4" id="custom-cards">
+        <h2 class="pb-2" id="skills">Skills</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Pakistan</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Pakistan</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- footer seection -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><i class="fa-solid fa-house"></i></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
   </main>
+  <script src="./assessts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.auto-type', {
+    strings: ["Project Management.", "Customer Success.", "Designer.", "Front-End Developer.", "MERN Stack."],
+    typeSpeed: 30,
+    backspeed: 30,
+    loop: true
+  });
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

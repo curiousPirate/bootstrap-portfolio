@@ -6,14 +6,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Nunito;
 }
 
+h2 {
+    text-align:center;
+    border-top: #3B3854 solid 3px;
+    border-bottom: #3B3854 solid 3px;
+    
+}
+
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
 
 .navbar > .container-fluid {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky;
-    animation: ease-in-out;
-    animation-duration: 0.3ms;
+    box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 a.nav-link {
@@ -28,7 +37,7 @@ a.nav-link {
     width: 0;
     height: 2px;
     border: 10px;
-    background: #0dcaf0;
+    background: #3B3854;
     transition: width .3s;
 }
 
@@ -49,6 +58,11 @@ a.nav-link {
     background-size: cover;
 }
 
+#projects {
+    background-image: url("/images/red-triangles.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
 .img-thumbnail,.img-thumbnail+.img-hover {
     border-radius: 1.25rem
 }
@@ -98,7 +112,6 @@ a.nav-link {
 .img-overlay:hover .img-text {
     transform: translateY(0)
 }
-
 
 
 /* responsive styles */
