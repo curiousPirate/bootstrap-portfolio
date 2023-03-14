@@ -52,8 +52,14 @@ a.nav-link {
     background-position: center;
 }
 
+.bg-light {
+    background-image: url('../images/Frame\ 1.svg');
+    background-repeat: none;
+    background-size: cover;
+}
+
 .bg-dark {
-    background-image: url('../images/triangles.jpg');
+    background-image: url('../images/dark.jpg;');
     background-repeat: none;
     background-size: cover;
 }
