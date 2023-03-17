@@ -48,6 +48,18 @@ a.nav-link {
     background-position: center;
 }
 
+.bg-light {
+    background-image: url('../images/Frame\ 1.svg') !important;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bg-dark {
+    background-image: url('../images/dark.jpg') !important;
+    background-repeat: none;
+    background-size: cover;
+}
+
 .pt-2 {
     padding-top: 3.5rem !important;
 }
