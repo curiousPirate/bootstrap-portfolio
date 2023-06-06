@@ -12,7 +12,7 @@
 
 ## URL for the website
 
-https://curioushumans.github.io/bootstrap-portfolio/
+https://curiouspirate.github.io/bootstrap-portfolio/
 
 
 ## Screenshot of the website
